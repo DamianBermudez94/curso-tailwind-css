@@ -1,7 +1,8 @@
-const darkMode = document.querySelector('#darkmode');
-console.log(darkMode);
+const darkModeInput = document.querySelector('#darkmode');
+console.log("hola mundo",darkModeInput);
 
-darkMode.addEventListener("click",()=>{
+darkModeInput.addEventListener("click",()=>{
     document.documentElement.classList.toggle('dark');
 })
-alert("Hola mundo!")
+
+console.log("hola mundo",darkModeInput);
